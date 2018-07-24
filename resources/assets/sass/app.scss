@@ -1,0 +1,39 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Toastr CSS
+@import '~toastr/toastr';
+
+// Grapes CSS
+@import '~grapesjs/dist/css/grapes.min.css';
+
+// Tooltip CSS
+@import './tooltip.css';
+
+// Filestack CSS
+@import '~grapesjs-plugin-filestack/src/style/main';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+ .links > a {
+    color: #636b6f;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-top: .8rem;
+    display: inline-block;
+}
